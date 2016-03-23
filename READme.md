@@ -150,13 +150,13 @@ The next handful of exercises will help you practice this skill that I already k
 
 ### multByThree
 
-	`multByThree` takes a `collection` as a parameter and returns a new collection containing each value multplied by 3.
+`multByThree` takes a `collection` as a parameter and returns a new collection containing each value multplied by 3.
 
-	***Rebuild*** (not copy) the functionality you built for `allNumbersMultipliedByThree` and wrap it in a function named `multByThree`.
+***Rebuild*** (not copy) the functionality you built for `allNumbersMultipliedByThree` and wrap it in a function named `multByThree`.
 
-	Test your function on multiple collections.
+Test your function on multiple collections.
 
-	Example:
+Example:
 
 ```
 	var numbers = [1, 2, 3, 4, 5];
@@ -168,13 +168,13 @@ The next handful of exercises will help you practice this skill that I already k
 
 ### upperCase
 	
-	`upperCase` takes a `string` as a parameter and returns a new string with each word made to be all caps.
+`upperCase` takes a `string` as a parameter and returns a new string with each word made to be all caps.
 
-	***Rebuild*** (not copy) the functionality you built for `bestSentence` and wrap it in a function named `upperCase`.
+***Rebuild*** (not copy) the functionality you built for `bestSentence` and wrap it in a function named `upperCase`.
 
-	Test your function on multiple strings.
+Test your function on multiple strings.
 
-	Example: 
+Example: 
 
 ```
 	var bestSentence = "This is the best six week course ever!";
@@ -185,9 +185,9 @@ The next handful of exercises will help you practice this skill that I already k
 
 ### contentsCollection
 	
-	`contentsCollection` takes an `object` as a parameter and returns an **array** containing all of the keys and values.
+`contentsCollection` takes an `object` as a parameter and returns an **array** containing all of the keys and values.
 
-	***Rebuild*** (not copy) the functionality you built for `collectedContents` and wrap it in a function named `contentsCollection`.
+***Rebuild*** (not copy) the functionality you built for `collectedContents` and wrap it in a function named `contentsCollection`.
 
 ```
 	var person = {name: 'Jon', greatestFear: 'fearItself'};
@@ -331,9 +331,9 @@ For the rest of this exercise will take you through building a library of higher
 
 ### makeArray
 
-	`makeArray` takes a `number` as a parameter and returns an array starting at the integer 0 up until that number.
+`makeArray` takes a `number` as a parameter and returns an array starting at the integer 0 up until that number.
 
-	Use loop to achieve this functionality.
+Use loop to achieve this functionality.
 
 
 ```
