@@ -260,11 +260,11 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 
 ### multByWhatever
 
-	`multByWhatever` takes a `collection` and an `inputNum` and returns a new array containing each value multiplied by the `inputNum`.
+`multByWhatever` takes a `collection` and an `inputNum` and returns a new array containing each value multiplied by the `inputNum`.
 
-	***Rebuild*** this function from scratch -- do not copy your `multByThree` function.
+***Rebuild*** this function from scratch -- do not copy your `multByThree` function.
 
-	Example from above:
+Example from above:
 
 ```
 	var numbers = [1, 2, 3, 4, 5];
@@ -275,15 +275,15 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 
 ### divideByWhatever
 	
-	`divideByWhatever` takes a `collection` and an `inputNum` and returns a new array containing each value divided by the `inputNum`.
+`divideByWhatever` takes a `collection` and an `inputNum` and returns a new array containing each value divided by the `inputNum`.
 
 
 ### switchCase 
 
-	`switchCase` takes a `sentence` and a `case` as parameters and returns the string based on the case.
+`switchCase` takes a `sentence` and a `case` as parameters and returns the string based on the case.
 
-		* [ ] `if` the `case` is 'lower', return the string to all lower case.
-		* [ ] `if` the `case` is 'upper', return the string to all upper case.
+* [ ] `if` the `case` is 'lower', return the string to all lower case.
+* [ ] `if` the `case` is 'upper', return the string to all upper case.
 
 ```
 	var bestSentence = "This is the best six week course ever!";
@@ -297,10 +297,11 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 
 ### contentsCollector
 	
-	`contentsCollector` takes an `object` and a `specifier` and returns an array containing:
-		* [ ] `if` the `specifier` is 'keys' return an array containing all of the keys.
-		* [ ] `if` the `specifier` is 'values' return an array containing all of the values
-		* [ ] `if` there is no specifier passed in, return an array containing the keys and values.
+`contentsCollector` takes an `object` and a `specifier` and returns an array containing:
+
+* [ ] `if` the `specifier` is 'keys' return an array containing all of the keys.  
+* [ ] `if` the `specifier` is 'values' return an array containing all of the values.  
+* [ ] `if` there is no specifier passed in, return an array containing the keys and values.  
 
 ```
 
@@ -420,22 +421,22 @@ Example:
 ### setXorO:  
 
 `setXorO` takes two parameters:   
-	1. a `game` object created with `gameCreator`.   
-	2. a set of `coordinates` that will always be an array,   
+
+1. a `game` object created with `gameCreator`.   
+2. a set of `coordinates` that will always be an array,   
 	
-	* [ ] `setXorO` will traverse the game board set on the `gameBoard` property of our `game` object.  
+* [ ] `setXorO` will traverse the game board set on the `gameBoard` property of our `game` object.  
 
-	* [ ] It will use the `coordinates` to find which square on the `gameBoard` it should place an `x` or an `o`. The coordinates should correspond with the `row` and `column` in the game board matrix.  
+* [ ] It will use the `coordinates` to find which square on the `gameBoard` it should place an `x` or an `o`. The coordinates should correspond with the `row` and `column` in the game board matrix.  
 
 
-	* [ ] Once it finds the correct square (object in the matrix), it will check the `state` property.  
-	 	* [ ] if the state is 'null', check the count   
-	 		* [ ] if the count is even (or 0), change the `state` to 'x'.    
-	 			* [ ] increment the count by 1    
-	 		* [ ] if the count is odd, change the `state` to 'o'  
-	 			*[ ] increment the count by 1  
+* [ ] Once it finds the correct square (object in the matrix), it will check the `state` property.  
+	 * [ ] if the state is 'null', check the count   
+	 	* [ ] if the count is even (or 0), change the `state` to 'x'.   * [ ] increment the count by 1    
+	 	* [ ] if the count is odd, change the `state` to 'o'  
+	 		*[ ] increment the count by 1  
 	 	
-	 	* [ ] if the state is already set, alert('this square has already been chosen'); 
+	 * [ ] if the state is already set, alert('this square has already been chosen'); 
 
 Example:
 
