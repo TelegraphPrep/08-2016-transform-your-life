@@ -434,7 +434,7 @@ Example:
 	 * [ ] if the state is 'null', check the count   
 	 	* [ ] if the count is even (or 0), change the `state` to 'x'.   * [ ] increment the count by 1    
 	 	* [ ] if the count is odd, change the `state` to 'o'  
-	 		*[ ] increment the count by 1  
+	 		* [ ] increment the count by 1  
 	 	
 	 * [ ] if the state is already set, alert('this square has already been chosen'); 
 
