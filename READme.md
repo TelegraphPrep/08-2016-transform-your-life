@@ -343,9 +343,9 @@ For the rest of this exercise will take you through building a library of higher
 
 ### makeRow
 	
-	`makeRow` takes an array, that we're going to call `row`, and replaces each value with an object with one property: `state`, set to 'null'.
+`makeRow` takes an array, that we're going to call `row`, and replaces each value with an object with one property: `state`, set to 'null'.
 
-	Use either `transform` or `loop` to accomplish this.
+Use either `transform` or `loop` to accomplish this.
 
 
 ```
@@ -358,9 +358,9 @@ For the rest of this exercise will take you through building a library of higher
 
 ### makeTicTacToeBoard
 
-	A `matrix` is an `array` containing other arrays. A lot of the time they are used simulating board games (think checkers or connect four). Each `array` inside of a matrix can be considered a `row`, while each index inside of each `array` can be considered a `column`
+A `matrix` is an `array` containing other arrays. A lot of the time they are used simulating board games (think checkers or connect four). Each `array` inside of a matrix can be considered a `row`, while each index inside of each `array` can be considered a `column`
 
-	Example:
+Example:
 
 ```
 		// all the 1's are a column
@@ -373,11 +373,11 @@ For the rest of this exercise will take you through building a library of higher
 
 ```
 
-	`makeTicTacToeBoard` takes a `number` as a parameter and creates a matrix that contains as many rows and columns as the number specifies.
+`makeTicTacToeBoard` takes a `number` as a parameter and creates a matrix that contains as many rows and columns as the number specifies.
 
-	Use your `makeArray` function to solve this 
+Use your `makeArray` function to solve this 
 	
-	example:
+example:
 
 ```
 	var myTicTacToeBoard = makeTicTacToe(3);
@@ -403,9 +403,9 @@ Now, to actually USE this board we're going to have to do something very special
 
 ### gameCreator 
 	
-	`gameCreator` will take a `ticTacToeBoard`, add it to an `object` set to the key 'gameBoard' property and return it to the user. The `object` will **also** have a `count` property set to 0.
+`gameCreator` will take a `ticTacToeBoard`, add it to an `object` set to the key 'gameBoard' property and return it to the user. The `object` will **also** have a `count` property set to 0.
 
-	Example:
+Example:
 	
 ```
 	var gameOne = gameCreator(makeTicTacToeBoard(3));
@@ -419,24 +419,25 @@ Now, to actually USE this board we're going to have to do something very special
 
 ### setXorO:  
 
-	`setXorO` takes two parameters:   
-		1. a `game` object created with `gameCreator`.   
-		2. a set of `coordinates` that will always be an array,   
+`setXorO` takes two parameters:   
+	1. a `game` object created with `gameCreator`.   
+	2. a set of `coordinates` that will always be an array,   
 	
-	 * [ ] `setXorO` will traverse the game board set on the `gameBoard` property of our `game` object.  
+	* [ ] `setXorO` will traverse the game board set on the `gameBoard` property of our `game` object.  
 
-	 * [ ] It will use the `coordinates` to find which square on the `gameBoard` it should place an `x` or an `o`. The coordinates should correspond with the `row` and `column` in the game board matrix.  
+	* [ ] It will use the `coordinates` to find which square on the `gameBoard` it should place an `x` or an `o`. The coordinates should correspond with the `row` and `column` in the game board matrix.  
 
 
-	 * [ ] Once it finds the correct square (object in the matrix), it will check the `state` property.  
-	 		* [ ] if the state is 'null', check the count   
-	 			* [ ] if the count is even (or 0), change the `state` to 'x'.    
-	 				* [ ] increment the count by 1    
-	 			* [ ] if the count is odd, change the `state` to 'o'  
-	 				*[ ] increment the count by 1  
-	 		* [ ] if the state is already set, alert('this square has already been chosen'); 
+	* [ ] Once it finds the correct square (object in the matrix), it will check the `state` property.  
+	 	* [ ] if the state is 'null', check the count   
+	 		* [ ] if the count is even (or 0), change the `state` to 'x'.    
+	 			* [ ] increment the count by 1    
+	 		* [ ] if the count is odd, change the `state` to 'o'  
+	 			*[ ] increment the count by 1  
+	 	
+	 	* [ ] if the state is already set, alert('this square has already been chosen'); 
 
-	 Example:
+Example:
 
 ```
 	 var myTicTacToeBoard = makeTicTacToe(3);
@@ -458,7 +459,7 @@ Now, to actually USE this board we're going to have to do something very special
 
 ```
 	
-	We will call `setXorO` on `gameOne` again so our second player can take their turn.
+We will call `setXorO` on `gameOne` again so our second player can take their turn.
 
 ```
 	setXorO(gameOne, [0, 2]);
@@ -477,7 +478,7 @@ Now, to actually USE this board we're going to have to do something very special
 	console.log(gameOne.count); // 2
 ```
 
-	If we call setXorO again on a square that's been set it will alert us:
+If we call setXorO again on a square that's been set it will alert us:
 
 ```
 
