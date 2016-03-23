@@ -156,16 +156,15 @@ The next handful of exercises will help you practice this skill that I already k
 
 	Test your function on multiple collections.
 
-	Example: 
+	Example:
 
-	```
-
+```
 	var numbers = [1, 2, 3, 4, 5];
 	var multipliedByThree = multByThree(numbers);
 	console.log(multipliedByThree) // [3, 6, 9, 12, 15];
 
 
-	```
+```
 
 ### upperCase
 	
@@ -177,12 +176,12 @@ The next handful of exercises will help you practice this skill that I already k
 
 	Example: 
 
-	```
+```
 	var bestSentence = "This is the best six week course ever!";
 	var bestSentenceUpperCased = upperCase(bestSentence);
 	console.log(bestSentence) // "THIS IS THE BEST SIX WEEK COURSE EVER!";
 
-	```
+```
 
 ### contentsCollection
 	
@@ -190,12 +189,12 @@ The next handful of exercises will help you practice this skill that I already k
 
 	***Rebuild*** (not copy) the functionality you built for `collectedContents` and wrap it in a function named `contentsCollection`.
 
-	```
+```
 	var person = {name: 'Jon', greatestFear: 'fearItself'};
 	var collectedContents = contentsCollection(person);
 	console.log(collectedContents); // ['name', 'Jon', 'greatestFear', 'fear itself'];
 
-	```
+```
 
 ## Quick Lesson: Expanding our Flexibility
 
@@ -267,12 +266,12 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 
 	Example from above:
 
-	```
+```
 	var numbers = [1, 2, 3, 4, 5];
 	var numbersMultipliedBy2 = multiplyByWhatever(numbers, 2);
 	console.log(numbersMultipliedBy2) // [2, 4, 6, 8, 10];
 
-	```
+```
 
 ### divideByWhatever
 	
@@ -286,7 +285,7 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 		* [ ] `if` the `case` is 'lower', return the string to all lower case.
 		* [ ] `if` the `case` is 'upper', return the string to all upper case.
 
-	```
+```
 	var bestSentence = "This is the best six week course ever!";
 	var bestSentenceUpper = switchCase(bestSentence, 'upper');
 	console.log(bestSentenceUpper) // "THIS IS THE BEST 6 WEEK COURSE EVER!";
@@ -294,7 +293,7 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 	var bestSentenceLower = switchCase(bestSentenceUpper, 'lower');
 	console.log(bestSentenceLower) // "this is the best 6 week course ever!";
 
-	```
+```
 
 ### contentsCollector
 	
@@ -303,7 +302,7 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 		* [ ] `if` the `specifier` is 'values' return an array containing all of the values
 		* [ ] `if` there is no specifier passed in, return an array containing the keys and values.
 
-	```
+```
 
 	var person = {name: 'Jon', greatestFear: 'fearItself'};
 	var allKeysInPerson = contentsCollector(person, 'keys');
@@ -315,7 +314,7 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 	var keysAndValuesInPerson = contentsCollector(person);
 	console.log(keysAndValuesInPerson) // ['name', 'Jon', 'greatestFear', 'fearItself'];
 
-	```
+```
 
 ## Lesson: Function Libraries
 
@@ -336,11 +335,11 @@ For the rest of this exercise will take you through building a library of higher
 	Use loop to achieve this functionality.
 
 
-	```
+```
 	var arrayWith5Elements = makeArray(5);
 	console.log(arrayWith5Elements) // [0, 1, 2, 3, 4];
 
-	```
+```
 
 ### makeRow
 	
@@ -349,11 +348,11 @@ For the rest of this exercise will take you through building a library of higher
 	Use either `transform` or `loop` to accomplish this.
 
 
-	```
+```
 	var newRow = makeRow(makeArray(4));
 	console.log(newRow) // [{state: null}, {state: null}, {state: null}, {state: null}];
 
-	```
+```
 
 
 
@@ -363,7 +362,7 @@ For the rest of this exercise will take you through building a library of higher
 
 	Example:
 
-	```
+```
 		// all the 1's are a column
 	var matrix =[[1, 2, 3, 4], // the array is a row
 	 			 [1, 2, 3, 4]
@@ -372,7 +371,7 @@ For the rest of this exercise will take you through building a library of higher
 
 	console.log(matrix[0]); // [1, 2, 3, 4];
 
-	```
+```
 
 	`makeTicTacToeBoard` takes a `number` as a parameter and creates a matrix that contains as many rows and columns as the number specifies.
 
@@ -380,7 +379,7 @@ For the rest of this exercise will take you through building a library of higher
 	
 	example:
 
-	```
+```
 	var myTicTacToeBoard = makeTicTacToe(3);
 	console.log(myTicTacToeBoard)
 
@@ -393,7 +392,7 @@ For the rest of this exercise will take you through building a library of higher
 	   ]
 	*/
 
-	```
+```
 
 
 ### EXTRA CREDIT:
@@ -408,7 +407,7 @@ Now, to actually USE this board we're going to have to do something very special
 
 	Example:
 	
-	```
+```
 	var gameOne = gameCreator(makeTicTacToeBoard(3));
 
 	console.log(gameOne) // {
@@ -416,7 +415,7 @@ Now, to actually USE this board we're going to have to do something very special
 		count: 0,
 	};
 
-	```
+```
 
 ### setXorO:  
 
@@ -439,7 +438,7 @@ Now, to actually USE this board we're going to have to do something very special
 
 	 Example:
 
-	 ```
+```
 	 var myTicTacToeBoard = makeTicTacToe(3);
 	 var gameOne = gameCreator(myTicTacToeBoard);
 
@@ -457,11 +456,11 @@ Now, to actually USE this board we're going to have to do something very special
 
 	console.log(gameOne.count); // 1
 
-	```
+```
 	
 	We will call `setXorO` on `gameOne` again so our second player can take their turn.
 
-	```
+```
 	setXorO(gameOne, [0, 2]);
 
 
@@ -476,7 +475,7 @@ Now, to actually USE this board we're going to have to do something very special
 	*/
 
 	console.log(gameOne.count); // 2
-	```
+```
 
 	If we call setXorO again on a square that's been set it will alert us:
 
@@ -484,9 +483,9 @@ Now, to actually USE this board we're going to have to do something very special
 
 	setXorO(gameOne, [0, 0]);
 
-	// "this squar has already been chosen";
+	// "this square has already been chosen";
 
-	```
+```
 	
 
 # Done
