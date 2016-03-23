@@ -479,7 +479,7 @@ Now, to actually USE this board we're going to have to do something very special
 
 	If we call setXorO again on a square that's been set it will alert us:
 
-	```
+```
 
 	setXorO(gameOne, [0, 0]);
 
