@@ -52,7 +52,8 @@ Finally, `transform` utilizes `loop` to achieve its purpose.
 
 Example:
 
-```
+```javascript
+
 var numbers = [1, 2, 3, 4, 5];
 var allValsMultipliedByTwo = transform(numbers, function(number){
 	return number * 2;
@@ -69,7 +70,7 @@ Use your `transform` with the `numbers array` to create a new array where each v
 
 Example:
 
-```
+```javascript
 
 console.log(allNumbersMultipliedByThree);
 //[3, 6, 9, 12, 15];
@@ -81,7 +82,8 @@ console.log(allNumbersMultipliedByThree);
 
 Use your `transform` with the `bestSentence` string to create a new string where each word is in all caps. Save it into a variable named `bestSentenceToUpperCase`
 
-```
+```javascript
+
 console.log(bestSentenceToUpperCase) // "THIS IS THE BEST SIX WEEK COURSE EVER!"
 
 ```
@@ -90,7 +92,8 @@ console.log(bestSentenceToUpperCase) // "THIS IS THE BEST SIX WEEK COURSE EVER!"
 
 Use your `transform` with the `person` object to create a new **array** that contains all of the keys and values inside of our `person` object. Save it into a variabled named `collectedContents`
 
-```
+```javascript
+
 console.log(collectedContents); // ['name', 'Jon', 'greatestFear', 'fear itself'];
 
 ```
@@ -103,7 +106,7 @@ Fortunately, that's only the beginning. The ***power*** of functional programmin
 
 Let's first take a look at the pattern we've been using:
 
-```
+```javascript
 
 var numbers = [1, 2, 3, 4, 5];
 
@@ -121,7 +124,8 @@ That's great. It does what we want for that particular collection, `numbers` on 
 
 Let's see what that would like:
 
-```
+```javascript
+
 var numbers = [1, 2, 3, 4, 5, 6];
 var numbers2 = [6, 7, 8, 9, 10];
 
@@ -158,7 +162,8 @@ Test your function on multiple collections.
 
 Example:
 
-```
+```javascript
+
 	var numbers = [1, 2, 3, 4, 5];
 	var multipliedByThree = multByThree(numbers);
 	console.log(multipliedByThree) // [3, 6, 9, 12, 15];
@@ -176,7 +181,8 @@ Test your function on multiple strings.
 
 Example: 
 
-```
+```javascript
+
 	var bestSentence = "This is the best six week course ever!";
 	var bestSentenceUpperCased = upperCase(bestSentence);
 	console.log(bestSentence) // "THIS IS THE BEST SIX WEEK COURSE EVER!";
@@ -189,7 +195,8 @@ Example:
 
 ***Rebuild*** (not copy) the functionality you built for `collectedContents` and wrap it in a function named `contentsCollection`.
 
-```
+```javascript
+
 	var person = {name: 'Jon', greatestFear: 'fearItself'};
 	var collectedContents = contentsCollection(person);
 	console.log(collectedContents); // ['name', 'Jon', 'greatestFear', 'fear itself'];
@@ -208,7 +215,7 @@ We inherently want our functions to be able to work with similar problems in dif
 
 Take my multiplyByTwo for example:
 
-```
+```javascript
 
 var multiplyByTwo = function(collection){
 	return transform(collection, function(number){
@@ -225,7 +232,8 @@ So, what can we do about it? Let's make our function more flexible by allowing t
 
 What would this look like?
 
-```						
+```javascript
+
 			// inputNum param allows our user to pass in a number
 var multiplyByWhatever = function(collection, inputNum){
 	return transform(collection, function(number){
@@ -241,7 +249,8 @@ Powerful concept, yeah?
 
 Let's see it in action:
 
-```
+```javascript
+
 var numbers = [1, 2, 3, 4, 5];
 
 var numbersMultipliedBy2 = multiplyByWhatever(numbers, 2);
@@ -266,7 +275,8 @@ So now you know about flexibility! The next couple of exercises will **expand** 
 
 Example from above:
 
-```
+```javascript
+
 	var numbers = [1, 2, 3, 4, 5];
 	var numbersMultipliedBy2 = multiplyByWhatever(numbers, 2);
 	console.log(numbersMultipliedBy2) // [2, 4, 6, 8, 10];
@@ -285,7 +295,8 @@ Example from above:
 * [ ] `if` the `case` is 'lower', return the string to all lower case.
 * [ ] `if` the `case` is 'upper', return the string to all upper case.
 
-```
+```javascript
+
 	var bestSentence = "This is the best six week course ever!";
 	var bestSentenceUpper = switchCase(bestSentence, 'upper');
 	console.log(bestSentenceUpper) // "THIS IS THE BEST 6 WEEK COURSE EVER!";
@@ -303,7 +314,7 @@ Example from above:
 * [ ] `if` the `specifier` is 'values' return an array containing all of the values.  
 * [ ] `if` there is no specifier passed in, return an array containing the keys and values.  
 
-```
+```javascript
 
 	var person = {name: 'Jon', greatestFear: 'fearItself'};
 	var allKeysInPerson = contentsCollector(person, 'keys');
@@ -336,7 +347,8 @@ For the rest of this exercise will take you through building a library of higher
 Use loop to achieve this functionality.
 
 
-```
+```javascript
+
 	var arrayWith5Elements = makeArray(5);
 	console.log(arrayWith5Elements) // [0, 1, 2, 3, 4];
 
@@ -349,7 +361,8 @@ Use loop to achieve this functionality.
 Use either `transform` or `loop` to accomplish this.
 
 
-```
+```javascript
+
 	var newRow = makeRow(makeArray(4));
 	console.log(newRow) // [{state: null}, {state: null}, {state: null}, {state: null}];
 
@@ -363,7 +376,8 @@ A `matrix` is an `array` containing other arrays. A lot of the time they are use
 
 Example:
 
-```
+```javascript
+
 		// all the 1's are a column
 	var matrix =[[1, 2, 3, 4], // the array is a row
 	 			 [1, 2, 3, 4]
@@ -380,7 +394,8 @@ Use your `makeArray` function to solve this
 	
 example:
 
-```
+```javascript
+
 	var myTicTacToeBoard = makeTicTacToe(3);
 	console.log(myTicTacToeBoard)
 
@@ -408,7 +423,8 @@ Now, to actually USE this board we're going to have to do something very special
 
 Example:
 	
-```
+```javascript
+
 	var gameOne = gameCreator(makeTicTacToeBoard(3));
 
 	console.log(gameOne) // {
@@ -440,7 +456,8 @@ Example:
 
 Example:
 
-```
+```javascript
+
 	 var myTicTacToeBoard = makeTicTacToe(3);
 	 var gameOne = gameCreator(myTicTacToeBoard);
 
@@ -462,7 +479,8 @@ Example:
 	
 We will call `setXorO` on `gameOne` again so our second player can take their turn.
 
-```
+```javascript
+
 	setXorO(gameOne, [0, 2]);
 
 
@@ -481,7 +499,8 @@ We will call `setXorO` on `gameOne` again so our second player can take their tu
 
 If we call setXorO again on a square that's been set it will alert us:
 
-```
+```javascript
+
 
 	setXorO(gameOne, [0, 0]);
 
