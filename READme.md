@@ -336,7 +336,7 @@ We then abstracted that functionality away by embedding our tailored `transform`
 
 We then added more flexibility to our abstracted functions by adding in multiple ways they can work based on what the user wants to accomplish. This allowed us to refrain from rebuilding functionality over and over again and gave the **user** the power to choose what they want.
 
-Now that we know we can use higher order functions like `loop` and `transform` to achieve such powerful functionality let's focus on building our more HOF's that will make our life easier.
+Now that we know we can use higher order functions like `loop` and `transform` to achieve such powerful functionality let's focus on building out more HOF's that will make our life easier.
 
 For the rest of this exercise will take you through building a library of higher order functions, some of them built on top of `loop`. You will then use your library to achieve even cooler stuff.
 
