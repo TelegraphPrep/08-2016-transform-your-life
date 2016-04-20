@@ -338,7 +338,7 @@ We then added more flexibility to our abstracted functions by adding in multiple
 
 Now that we know we can use higher order functions like `loop` and `transform` to achieve such powerful functionality let's focus on building out more HOF's that will make our life easier.
 
-For the rest of this exercise will take you through building a library of higher order functions, some of them built on top of `loop`. You will then use your library to achieve even cooler stuff.
+The rest of this exercise will take you through building a library of higher order functions, some of them built on top of `loop`. You will then use your library to achieve even cooler stuff.
 
 ### makeArray
 
