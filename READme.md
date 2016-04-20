@@ -228,7 +228,7 @@ var multiplyByTwo = function(collection){
 
 This works fine if we want to multiply each element in a collection by 2, but what if we wanted to multiply by 3? Or 4? Or Pi? I demand a function that multiplied by **whatever**. There's no way we should be building that out ***every single time***.
 
-So, what can we do about it? Let's make our function more flexible by allowing the *user* to input 
+So, what can we do about it? Let's make our function more flexible by allowing the *user* to input the factor to multiply by.
 
 What would this look like?
 
