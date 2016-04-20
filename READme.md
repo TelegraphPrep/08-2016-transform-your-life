@@ -66,7 +66,7 @@ console.log(allValsMultipliedByTwo) // [2, 4, 6, 8, 10];
 
 ### allNumbersMultipliedByThree
 
-Use your `transform` with the `numbers array` to create a new array where each value is multiplied by 3. Save that array into a variable called `allNumbersMultipliedByThree`.
+Use your `transform` with the `numbers` array to create a new array where each value is multiplied by 3. Save that array into a variable called `allNumbersMultipliedByThree`.
 
 Example:
 
