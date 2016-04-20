@@ -102,7 +102,7 @@ console.log(collectedContents); // [ ['name', 'Jon'], ['greatestFear', 'fear its
 
 So that was fun - we created 3 whole new variables using our `transform` function showing that we know how to wield it; great for us! 
 
-Fortunately, that's only the beginning. The ***power*** of functional programming is literally upon you and this next lesson is going to blow your mind.
+Fortunately, that's only the beginning. The ***power*** of functional programming is upon you and this next lesson is going to blow your mind.
 
 Let's first take a look at the pattern we've been using:
 
