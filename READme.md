@@ -30,8 +30,8 @@ See the following document on [Pairing Dynamics Workflow](https://github.com/Tel
 
 ### Goals:
 
-1. Practice building `higher order functions` with other `higher order functions`.
-2. Continue to `abstract` away functionality.
+1. Practice building higher order functions with other higher order functions.
+2. Continue to abstract away functionality.
 3. Come away with a small library of functions
 
 ## Lesson: Transform Your Life
