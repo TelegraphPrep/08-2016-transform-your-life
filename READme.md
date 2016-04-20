@@ -90,11 +90,11 @@ console.log(bestSentenceToUpperCase) // "THIS IS THE BEST SIX WEEK COURSE EVER!"
 
 ### collectedContents
 
-Use your `transform` with the `person` object to create a new **array** that contains all of the keys and values inside of our `person` object. Save it into a variabled named `collectedContents`
+Use your `transform` with the `person` object to create a new **array** of arrays that contain all of the keys and values inside of our `person` object. Save it into a variabled named `collectedContents`
 
 ```javascript
 
-console.log(collectedContents); // ['name', 'Jon', 'greatestFear', 'fear itself'];
+console.log(collectedContents); // [ ['name', 'Jon'], ['greatestFear', 'fear itself'] ];
 
 ```
 
