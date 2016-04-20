@@ -4,7 +4,7 @@
 
 **Fork the Repository**
 
-1. On Github's website, navigate to the [Transform Your Life](https://github.com/TelegraphPrep/03-2016-transformYourLife)
+1. On Github's website, navigate to the [Transform Your Life](https://github.com/TelegraphPrep/04-2016-transformYourLife)
 2. Click the "Fork" button near the top right part of the screen.
 3. In the popup box, select your Github profile to copy the repository from the TelegraphPrep Github profile to your profile.
 
