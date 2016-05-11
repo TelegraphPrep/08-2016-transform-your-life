@@ -1,4 +1,4 @@
-var loop = function(collection, func){
+var loop = function(collection, callback){
 
   if (Array.isArray(collection)){
     for (var i = 0; i < collection.length; i++){
